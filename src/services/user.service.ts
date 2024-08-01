@@ -6,15 +6,25 @@ import user from '../models/user';
 class UserService {
   private User = user(sequelize, DataTypes);
 
-  //get all users
-  public getAllUsers = async (): Promise<IUser[]> => {
-    const data = await this.User.findAll();
+  //Register a new user
+  public registerUser = async (body) => {
+    const data = await this.User.create(body);
     return data;
   };
 
-  //create a new user
-  public newUser = async (body) => {
-    const data = await this.User.create(body);
+  //Login User
+  public loginUser = async (email) => {
+    const data = await this.User.findOne({ where: { email: email } });
+    if (data === null) {
+      return { message: 'Email is wrong' };
+    } else {
+      return data;
+    }
+  };
+
+  //get all users
+  public getAllUsers = async (): Promise<IUser[]> => {
+    const data = await this.User.findAll();
     return data;
   };
 
@@ -30,12 +40,6 @@ class UserService {
   public deleteUser = async (id) => {
     await this.User.destroy({ where: { id: id } });
     return '';
-  };
-
-  //get a single user
-  public getUser = async (id) => {
-    const data = await this.User.findByPk(id);
-    return data;
   };
 }
 

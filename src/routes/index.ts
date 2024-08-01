@@ -1,6 +1,5 @@
 import express, { IRouter } from 'express';
 const router = express.Router();
-
 import userRoute from './user.route';
 
 /**
@@ -8,9 +7,10 @@ import userRoute from './user.route';
  *
  * @returns router
  */
+
 const routes = (): IRouter => {
   router.get('/', (req, res) => {
-    res.json('Welcome');
+    res.json('Welcome to fundoo Notes App');
   });
   router.use('/users', new userRoute().getRoutes());
 

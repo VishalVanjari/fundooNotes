@@ -1,15 +1,13 @@
 import { Sequelize } from 'sequelize';
 import Logger from './logger';
-
 import dotenv from 'dotenv';
 dotenv.config();
-
 export { DataTypes } from 'sequelize';
 
 const logger = Logger.logger;
 
 let DATABASE = process.env.DATABASE;
-let USERNAME = process.env.USERNAME;
+let USERNAME = process.env.DB_USERNAME;
 let PASSWORD = process.env.PASSWORD;
 let HOST = process.env.HOST;
 let PORT = parseInt(process.env.PORT);
@@ -25,7 +23,7 @@ if (process.env.NODE_ENV === 'test') {
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
   host: HOST,
   port: PORT,
-  dialect: 'mysql',
+  dialect: 'postgres',
   pool: {
     max: 5,
     min: 0,

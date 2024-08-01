@@ -1,14 +1,11 @@
 import dotenv from 'dotenv';
 dotenv.config();
-
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-
 import routes from './routes';
 import ErrorHandler from './middlewares/error.middleware';
 import Logger from './config/logger';
-
 import morgan from 'morgan';
 
 class App {
@@ -42,7 +39,10 @@ class App {
   }
 
   public initializeRoutes(): void {
-    this.app.use(`/api/${this.api_version}`, routes());
+    this.app.use(
+      //`/api/${this.api_version}`,
+      routes()
+    );
   }
 
   public initializeErrorHandlers(): void {
@@ -54,7 +54,8 @@ class App {
   public startApp(): void {
     this.app.listen(this.port, () => {
       this.logger.info(
-        `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
+        // `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
+        `Server started at ${this.host}:${this.port}`
       );
     });
   }

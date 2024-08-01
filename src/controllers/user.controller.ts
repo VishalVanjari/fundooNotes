@@ -7,12 +7,45 @@ import { Request, Response, NextFunction } from 'express';
 class UserController {
   public UserService = new userService();
 
-  /**
-   * Controller to get all users available
-   * @param  {object} Request - request object
-   * @param {object} Response - response object
-   * @param {Function} NextFunction
-   */
+  //Register the new User
+
+  public registerUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.registerUser(req.body);
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'User register successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  //Login User
+
+  public loginUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.loginUser(req.body.email);
+
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'User Login Successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
   public getAllUsers = async (
     req: Request,
     res: Response,
@@ -30,58 +63,6 @@ class UserController {
     }
   };
 
-  /**
-   * Controller to get a single user
-   * @param  {object} Request - request object
-   * @param {object} Response - response object
-   * @param {Function} NextFunction
-   */
-  public getUser = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ): Promise<any> => {
-    try {
-      const data = await this.UserService.getUser(req.params.id);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'User fetched successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
-
-  /**
-   * Controller to create new user
-   * @param  {object} Request - request object
-   * @param {object} Response - response object
-   * @param {Function} NextFunction
-   */
-  public newUser = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ): Promise<any> => {
-    try {
-      const data = await this.UserService.newUser(req.body);
-      res.status(HttpStatus.CREATED).json({
-        code: HttpStatus.CREATED,
-        data: data,
-        message: 'User created successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
-
-  /**
-   * Controller to update a user
-   * @param  {object} Request - request object
-   * @param {object} Response - response object
-   * @param {Function} NextFunction
-   */
   public updateUser = async (
     req: Request,
     res: Response,
