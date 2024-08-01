@@ -34,12 +34,15 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.loginUser(req.body.email);
+      const data = await this.UserService.loginUser(
+        req.body.email,
+        req.body.password
+      );
 
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
-        data: data,
-        message: 'User Login Successfully'
+        data: data.data,
+        message: data.message
       });
     } catch (error) {
       next(error);

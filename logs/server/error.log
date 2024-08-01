@@ -790,3 +790,175 @@ Error: Route.get() requires a callback function but got a [object Undefined]
     at Object.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\index.ts:71:13)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._compile (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 12:36:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":267230.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":136828,"external":2293698,"heapTotal":54423552,"heapUsed":21276416,"rss":69558272},"pid":23728,"uid":null,"version":"v20.14.0"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as get] (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts:39:17)\n    at new UserRoutes (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\index.ts:15:23)\n    at App.initializeRoutes (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts:47:13)\n    at new App (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts:31:10)\n    at Object.<anonymous> (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts:71:13)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T07:06:09.130Z","trace":[{"column":15,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":216,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as get]","line":521,"method":"<computed> [as get]","native":false},{"column":17,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":39,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":23,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":15,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":47,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts","function":"new App","line":31,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts","function":null,"line":71,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: Cannot find module 'bcrypt'
+Require stack:
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\routes\user.route.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\routes\index.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\index.ts
+Error: Cannot find module 'bcrypt'
+Require stack:
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\routes\user.route.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\routes\index.ts
+- C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\index.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._compile (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Vishal\AppData\Local\Temp\ts-node-dev-hook-5399551352102048.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Vishal\AppData\Local\Temp\ts-node-dev-hook-5399551352102048.js:114:20) {"date":"Thu Aug 01 2024 16:17:03 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\services\\user.service.ts","C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\controllers\\user.controller.ts","C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts","C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\index.ts","C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":280485.078},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":114713,"external":2285506,"heapTotal":33714176,"heapUsed":20733272,"rss":62185472},"pid":16904,"uid":null,"version":"v20.14.0"},"stack":"Error: Cannot find module 'bcrypt'\nRequire stack:\n- C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\services\\user.service.ts\n- C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\controllers\\user.controller.ts\n- C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\user.route.ts\n- C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\routes\\index.ts\n- C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\index.ts\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:986:27)\n    at Module.require (node:internal/modules/cjs/loader:1233:19)\n    at require (node:internal/modules/helpers:179:18)\n    at Object.<anonymous> (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\services\\user.service.ts:3:1)\n    at Module._compile (node:internal/modules/cjs/loader:1358:14)\n    at Module._compile (C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Vishal\\AppData\\Local\\Temp\\ts-node-dev-hook-5399551352102048.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Vishal\\AppData\\Local\\Temp\\ts-node-dev-hook-5399551352102048.js:114:20)","timestamp":"2024-08-01T10:47:03.719Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1145,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":986,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1233,"method":"require","native":false},{"column":18,"file":"node:internal/modules/helpers","function":"require","line":179,"method":null,"native":false},{"column":1,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\src\\services\\user.service.ts","function":null,"line":3,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1358,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Vishal\\Documents\\BridgeLabz\\fundooNotes\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Vishal\\AppData\\Local\\Temp\\ts-node-dev-hook-5399551352102048.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1416,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Vishal\\AppData\\Local\\Temp\\ts-node-dev-hook-5399551352102048.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: 
+    status - 500 
+    message - Error: Error registering user: string violation: password cannot be an array or an object
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:24:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:52:18.721Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: string violation: password cannot be an array or an object
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:24:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:53:53.402Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: string violation: password cannot be an array or an object
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:24:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:54:03.186Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: string violation: password cannot be an array or an object
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:27:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:56:00.109Z"}
+error: 
+    status - 500 
+    message - TypeError: error is not a constructor
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:36:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:10:50.875Z"}
+error: 
+    status - 500 
+    message - TypeError: error is not a constructor
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:44:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:32:21.439Z"}
+error: 
+    status - 500 
+    message - TypeError: error is not a constructor
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:34:44.463Z"}
+error: 
+    status - 500 
+    message - TypeError: error is not a constructor
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:35:14.353Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'data')
+    at UserController.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:44:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:36:35.024Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'data')
+    at UserController.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:44:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:39:31.692Z"}
+error: 
+    status - 500 
+    message - TypeError: error is not a constructor
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:48:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T11:43:59.057Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'data')
+    at UserController.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:44:20)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\controllers\user.controller.ts:5:58) 
+    url - /users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T12:03:48.858Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 153
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T12:08:41.369Z"}
