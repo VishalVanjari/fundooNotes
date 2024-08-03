@@ -3,7 +3,10 @@ import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcrypt';
 import user from '../models/user';
 import { log } from 'winston';
+import jwt from 'jsonwebtoken';
+import dotenv from 'dotenv';
 
+const secretKey = process.env.SECRET_KEY;
 const saltRound: number = 10;
 
 class UserService {
@@ -13,8 +16,8 @@ class UserService {
 
   public registerUser = async (body) => {
     try {
-      const hashedPassword = await bcrypt.hash(body.password, saltRound);
-      body.password = hashedPassword;
+      // const hashedPassword = await bcrypt.hash(body.password, saltRound);
+      // body.password = hashedPassword;
       const data = await this.User.create(body);
       return data;
     } catch (error) {
@@ -27,21 +30,33 @@ class UserService {
     try {
       const data = await this.User.findOne({ where: { email: email } });
       let obj = {
-        data :data,
+        data: data,
+        token: '',
         message: 'Invalid User'
-      }
+      };
       if (data && (await bcrypt.compare(password, data.password))) {
         obj.message = 'Loged In successfully';
       } else {
-          obj.data = null;
-          return obj;
+        obj.data = null;
         return obj;
       }
+      const token = jwt.sign({ id: data.id }, secretKey, { expiresIn: '1h' });
+      console.log('Token ********************************', token);
+      obj.token = token;
       return obj;
     } catch (error) {
       throw new error('Error Logging user: ');
     }
   };
+
+
+  
+  //get a single user
+  public getUser = async (id) => {
+    const data = await this.User.findByPk(id);
+    return data;
+  };
+
 
   //get all users
   public getAllUsers = async (): Promise<IUser[]> => {

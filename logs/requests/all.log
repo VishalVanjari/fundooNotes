@@ -248,3 +248,95 @@ info: ::1 - - [01/Aug/2024:12:13:39 +0000] "POST /users/login HTTP/1.1" 200 49 "
 
 info: ::1 - - [01/Aug/2024:12:13:45 +0000] "POST /users/login HTTP/1.1" 200 49 "-" "PostmanRuntime/7.40.0"
 
+info: ::1 - - [02/Aug/2024:05:30:29 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [02/Aug/2024:05:30:39 +0000] "GET /users HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [02/Aug/2024:05:30:59 +0000] "GET /users/5 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+
+info: ::1 - - [02/Aug/2024:05:31:18 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:05:35:11 +0000] "GET / HTTP/1.1" 200 29 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:01:20 +0000] "POST /users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:01:44 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:02:11 +0000] "POST /users/login HTTP/1.1" 200 49 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:02:16 +0000] "POST /users/login HTTP/1.1" 200 49 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:02:29 +0000] "POST /users/login HTTP/1.1" 200 49 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:02:40 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:07:54 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:08:17 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:09:31 +0000] "POST /users/login HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:10:11 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:12:22 +0000] "POST /users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:17:47 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:18:49 +0000] "GET /users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:20:32 +0000] "GET /users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:20:45 +0000] "GET /users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:22:49 +0000] "GET /users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:23:09 +0000] "GET /users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:23:17 +0000] "POST /users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:24:34 +0000] "POST /users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:24:48 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:24:52 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:25:03 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:25:07 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:25:12 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:37:47 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:38:15 +0000] "POST /users/4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:38:34 +0000] "POST /users/4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:38:40 +0000] "POST /users/4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:07 +0000] "GET /users/4 HTTP/1.1" 200 268 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:16 +0000] "GET /users/4 HTTP/1.1" 200 268 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:28 +0000] "GET /users/4 HTTP/1.1" 500 55 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:34 +0000] "GET /users/4 HTTP/1.1" 500 55 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:38 +0000] "GET /users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:39:42 +0000] "GET /users/4 HTTP/1.1" 500 55 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:49:57 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:53:22 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:54:05 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:06:55:45 +0000] "POST /users/login HTTP/1.1" 200 412 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:07:35:03 +0000] "POST /users/register HTTP/1.1" 201 260 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [02/Aug/2024:07:35:28 +0000] "POST /users/login HTTP/1.1" 200 403 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:06:01:43 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+

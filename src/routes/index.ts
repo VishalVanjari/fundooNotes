@@ -14,7 +14,7 @@ const routes = (): IRouter => {
   });
   router.use('/users', new userRoute().getRoutes());
 
-  return router;
+  return router;  
 };
 
 export default routes;

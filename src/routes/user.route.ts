@@ -20,6 +20,9 @@ class UserRoutes {
     // Login user
     this.router.post('/login', this.UserController.loginUser);
 
+    //Autorize the user
+    //this.router.get('/:id', userAuth, this.UserController.getUser);
+
     //route to get all users
     //this.router.get('', this.UserController.getAllUsers);
 

@@ -2,6 +2,10 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
+import dotenv from 'dotenv';
+import UserController from '../controllers/user.controller';
+
+const secretKey = process.env.SECRET_KEY;
 
 /**
  * Middleware to authenticate if user has a valid Authorization token
@@ -25,7 +29,7 @@ export const userAuth = async (
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user }: any = await jwt.verify(bearerToken, 'your-secret-key');
+    const { user }: any = await jwt.verify(bearerToken, secretKey);
     res.locals.user = user;
     res.locals.token = bearerToken;
     next();

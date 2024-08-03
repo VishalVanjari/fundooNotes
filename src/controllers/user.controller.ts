@@ -42,13 +42,39 @@ class UserController {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data.data,
-        message: data.message
+        message: data.message,
+        token: data.token
       });
     } catch (error) {
       next(error);
     }
   };
 
+ // get autorization user
+
+  public getUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.getUser(req.params.id);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'User fetched successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+
+
+
+
+
+  
   public getAllUsers = async (
     req: Request,
     res: Response,

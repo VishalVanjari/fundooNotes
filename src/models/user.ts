@@ -3,7 +3,8 @@
 'use strict';
 import { Model, DateOnlyDataType, DataTypes } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
-
+import bcrypt from 'bcrypt';
+const saltRound: number = 10;
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
     public id;
@@ -62,7 +63,14 @@ export default (sequelize, DataTypes) => {
     {
       sequelize,
       modelName: 'user',
-      timestamps: false
+      timestamps: false,
+      hooks: {
+        beforeCreate: async (user) => {
+          if (user.password) {
+            user.password = await bcrypt.hash(user.password, saltRound);
+          }
+        }
+      }
     }
   );
   return User;
