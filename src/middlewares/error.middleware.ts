@@ -13,12 +13,6 @@ class ErrorMiddleware {
     this.logger = Logger.logger;
   }
 
-  /**
-   * Error response middleware for 404 not found.
-   *
-   * @param {Object} req
-   * @param {Object} res
-   */
   public notFound = (req: Request, res: Response): void => {
     res.status(HttpStatus.NOT_FOUND).json({
       code: HttpStatus.NOT_FOUND,
@@ -26,15 +20,6 @@ class ErrorMiddleware {
     });
   };
 
-  /**
-   * Error response middleware for handling
-   * all app errors except generic errors.
-   *
-   * @param  {Object}   err
-   * @param  {Object}   req
-   * @param  {Object}   res
-   * @param  {Function} next
-   */
   // eslint-disable-next-line no-unused-vars
   public appErrorHandler = (
     err: any,
@@ -59,14 +44,6 @@ class ErrorMiddleware {
     }
   };
 
-  /**
-   * Generic error response middleware for internal server errors.
-   *
-   * @param  {Object}   err
-   * @param  {Object}   req
-   * @param  {Object}   res
-   * @param  {Function} next
-   */
   // eslint-disable-next-line no-unused-vars
   public genericErrorHandler = (
     err: any,

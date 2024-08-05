@@ -7,14 +7,6 @@ import UserController from '../controllers/user.controller';
 
 const secretKey = process.env.SECRET_KEY;
 
-/**
- * Middleware to authenticate if user has a valid Authorization token
- * Authorization: Bearer <token>
- *
- * @param {Object} req
- * @param {Object} res
- * @param {Function} next
- */
 export const userAuth = async (
   req: Request,
   res: Response,
@@ -29,9 +21,10 @@ export const userAuth = async (
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { user }: any = await jwt.verify(bearerToken, secretKey);
-    res.locals.user = user;
-    res.locals.token = bearerToken;
+    const { id, username }: any = await jwt.verify(bearerToken, secretKey);
+    (req as any).id = id;
+    (req as any).username = username;
+
     next();
   } catch (error) {
     next(error);

@@ -13,7 +13,6 @@ class UserService {
   private User = user(sequelize, DataTypes);
 
   //Register a new user
-
   public registerUser = async (body) => {
     try {
       // const hashedPassword = await bcrypt.hash(body.password, saltRound);
@@ -40,8 +39,11 @@ class UserService {
         obj.data = null;
         return obj;
       }
-      const token = jwt.sign({ id: data.id }, secretKey, { expiresIn: '1h' });
-      console.log('Token ********************************', token);
+      const token = jwt.sign(
+        { id: data.id, username: data.firstName },
+        secretKey,
+        { expiresIn: '1h' }
+      );
       obj.token = token;
       return obj;
     } catch (error) {
@@ -49,23 +51,22 @@ class UserService {
     }
   };
 
-
-  
   //get a single user
   public getUser = async (id) => {
     const data = await this.User.findByPk(id);
     return data;
   };
 
-
   //get all users
-  public getAllUsers = async (): Promise<IUser[]> => {
+  public getAllUsers = async (): Promise<any> => {
     const data = await this.User.findAll();
     return data;
   };
 
   //update a user
   public updateUser = async (id, body) => {
+    const hashedPassword = await bcrypt.hash(body.password, saltRound);
+    body.password = hashedPassword;
     await this.User.update(body, {
       where: { id: id }
     });

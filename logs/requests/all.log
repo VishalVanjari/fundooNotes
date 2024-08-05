@@ -340,3 +340,367 @@ info: ::1 - - [02/Aug/2024:07:35:28 +0000] "POST /users/login HTTP/1.1" 200 403 
 
 info: ::1 - - [03/Aug/2024:06:01:43 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
 
+info: ::1 - - [03/Aug/2024:06:48:04 +0000] "POST /users/create HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:06:51:07 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:06:53:40 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:06:56:24 +0000] "POST /notes/create HTTP/1.1" 201 1641 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:06:58:17 +0000] "POST /notes/create HTTP/1.1" 201 22156 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:02:45 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:03:24 +0000] "POST /users/register HTTP/1.1" 201 260 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:03:31 +0000] "POST /users/login HTTP/1.1" 200 403 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:05:02 +0000] "POST /notes/create HTTP/1.1" 201 22156 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:13:17 +0000] "POST /notes/create HTTP/1.1" 500 108 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:13:26 +0000] "POST /notes/create HTTP/1.1" 201 301 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:29:50 +0000] "POST /users/register HTTP/1.1" 201 269 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:30:23 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:30:39 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:07:31:39 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:43:30 +0000] "GET /notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:43:41 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:44:25 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:44:34 +0000] "GET /notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:46:14 +0000] "GET /notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:49:46 +0000] "GET /notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:50:32 +0000] "GET /notes/getnotes HTTP/1.1" 200 295 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:51:30 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:51:37 +0000] "POST /users/login HTTP/1.1" 200 439 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:52:04 +0000] "GET /notes/getnotes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:52:47 +0000] "POST /notes/create HTTP/1.1" 201 176 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:08:52:53 +0000] "GET /notes/getnotes HTTP/1.1" 200 182 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:22:07 +0000] "GET /notes/getnotes HTTP/1.1" 200 182 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:22:26 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:23:19 +0000] "GET /notes/getnotes HTTP/1.1" 200 182 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:23:25 +0000] "GET /notes/getnotes/3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:23:51 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:12 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:29 +0000] "GET /notes/getnotes HTTP/1.1" 200 295 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:40 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:48 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:52 +0000] "GET /notes/getnotes/1 HTTP/1.1" 200 172 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:24:57 +0000] "GET /notes/getnotes/5 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:25:08 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:25:16 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:25:28 +0000] "GET /notes/getnotes HTTP/1.1" 200 295 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:32:39 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:33:00 +0000] "GET /notes/getnotes/1 HTTP/1.1" 200 172 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:33:04 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:33:11 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:34:08 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:42:34 +0000] "PUT /notes/getnotes/3 HTTP/1.1" 202 162 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:44:11 +0000] "PUT /notes/getnotes/2 HTTP/1.1" 202 162 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:44:57 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:46:28 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" 202 168 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:46:49 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" 202 168 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:50:51 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" 202 50 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:52:20 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:52:32 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" 202 50 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:53:25 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [03/Aug/2024:09:54:16 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:54:14 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:54:43 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:55:45 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:56:41 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:57:29 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:58:51 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 179 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:59:03 +0000] "GET /notes/getnotes/1 HTTP/1.1" 200 191 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:59:25 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 179 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:13:59:29 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:00:55 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:01:45 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:02:56 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:03:31 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:11:45 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:11:56 +0000] "POST /users/login HTTP/1.1" 200 436 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:12:26 +0000] "GET /notes/getnotes HTTP/1.1" 200 332 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:12:38 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:13:10 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" - - "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:14:04 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" 202 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:14:21 +0000] "PUT /notes/updatenotes/2 HTTP/1.1" 202 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:14:54 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" 202 176 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:19:00 +0000] "PUT /notes/updatenotes/3 HTTP/1.1" 202 176 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [04/Aug/2024:14:19:18 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" 202 176 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:35:39 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:36:56 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:37:45 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:38:11 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 192 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:38:17 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 193 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:38:18 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 192 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:38:19 +0000] "PUT /notes/archivenotes/1 HTTP/1.1" 202 193 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:38:24 +0000] "PUT /notes/archivenotes/3 HTTP/1.1" 202 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:44:08 +0000] "PUT /notes/trashnotes/1 HTTP/1.1" 202 190 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:46:02 +0000] "PUT /notes/trashnotes/1 HTTP/1.1" 202 191 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:46:18 +0000] "PUT /notes/trashnotes/3 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:58:47 +0000] "DELETE /notes/deletenotes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:59:02 +0000] "DELETE /notes/deletenotes/3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:05:59:46 +0000] "DELETE /notes/deletenotes/3 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:00:36 +0000] "DELETE /notes/deletenotes/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:20:06 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:20:25 +0000] "DELETE /notes/deletenotes/1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:21:00 +0000] "DELETE /notes/deletenotes/3 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:21:18 +0000] "DELETE /notes/deletenotes/1 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:22:40 +0000] "DELETE /notes/deletenotes/1 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:22:52 +0000] "DELETE /notes/deletenotes/2 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:29:54 +0000] "DELETE /notes/deletenotes/3 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:30:36 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:35:23 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:35:26 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:36:12 +0000] "POST /users/register HTTP/1.1" 201 269 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:36:54 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:38:25 +0000] "POST /notes/create HTTP/1.1" 201 175 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:38:48 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:39:55 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:40:10 +0000] "GET /notes/getnotes HTTP/1.1" 200 413 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:40:27 +0000] "GET /notes/getnotes/3 HTTP/1.1" 200 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:40:32 +0000] "GET /notes/getnotes/2 HTTP/1.1" 200 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:40:35 +0000] "GET /notes/getnotes/6 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:40:42 +0000] "GET /notes/getnotes/1 HTTP/1.1" 200 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:41:01 +0000] "POST /users/login HTTP/1.1" 200 439 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:41:42 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:42:01 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:42:32 +0000] "POST /notes/create HTTP/1.1" 201 172 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:42:48 +0000] "GET /notes/getnotes HTTP/1.1" 200 409 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:43:03 +0000] "GET /notes/getnotes/1 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:43:07 +0000] "GET /notes/getnotes/6 HTTP/1.1" 200 171 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:54:12 +0000] "DELETE /notes/deletenotes/3 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:54:17 +0000] "DELETE /notes/deletenotes/6 HTTP/1.1" 200 59 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:55:16 +0000] "PUT /notes/trashnotes/3 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:55:31 +0000] "PUT /notes/trashnotes/6 HTTP/1.1" 202 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:06:55:47 +0000] "PUT /notes/trashnotes/5 HTTP/1.1" 202 171 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:07:19:09 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:07:19:15 +0000] "POST /users/register HTTP/1.1" 201 269 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:07:20:28 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:12:17 +0000] "POST /notes/create HTTP/1.1" 500 100 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:13:00 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:13:06 +0000] "POST /users/register HTTP/1.1" 201 269 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:13:11 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:13:32 +0000] "POST /notes/create HTTP/1.1" 500 100 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:14:58 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:02 +0000] "POST /users/register HTTP/1.1" 201 269 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:05 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:22 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:36 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:44 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:15:55 +0000] "POST /users/login HTTP/1.1" 200 439 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:16:30 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:16:36 +0000] "POST /notes/create HTTP/1.1" 201 173 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:16:44 +0000] "POST /notes/create HTTP/1.1" 201 172 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:16:54 +0000] "PUT /notes/trashnotes/5 HTTP/1.1" 500 46 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:17:04 +0000] "PUT /notes/trashnotes/5 HTTP/1.1" 202 171 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:08:17:06 +0000] "PUT /notes/trashnotes/5 HTTP/1.1" 202 170 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:25:02 +0000] "POST /users/login HTTP/1.1" 500 90 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:25:53 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:32:08 +0000] "GET /users/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:32:33 +0000] "PUT /users/2 HTTP/1.1" 500 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:32:46 +0000] "PUT /users/2 HTTP/1.1" 500 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:33:20 +0000] "PUT /users/2 HTTP/1.1" 202 211 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:35:13 +0000] "PUT /users/2 HTTP/1.1" 202 211 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:41:06 +0000] "POST /users/register HTTP/1.1" 500 78 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:41:46 +0000] "POST /users/register HTTP/1.1" 500 78 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:42:04 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:42:39 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:44:10 +0000] "POST /users/login HTTP/1.1" 200 438 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:45:28 +0000] "PUT /users/4 HTTP/1.1" 202 188 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:49:07 +0000] "PUT /users/4 HTTP/1.1" 202 238 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:50:02 +0000] "PUT /users/2 HTTP/1.1" 202 133 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:51:18 +0000] "DELETE /users/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:51:31 +0000] "DELETE /users/2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:54:30 +0000] "GET /users/2 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:56:04 +0000] "GET /users/2 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:56:10 +0000] "GET /users/3 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:56:14 +0000] "GET /users/4 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:09:59:02 +0000] "GET /users/getall HTTP/1.1" 500 84 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:00:03 +0000] "GET /users/getall HTTP/1.1" 500 84 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:04:32 +0000] "GET /users/allusers HTTP/1.1" 500 86 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:06:10 +0000] "GET /users/4 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:06:26 +0000] "GET /users/getall HTTP/1.1" 500 84 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:16:12 +0000] "GET /users/getall HTTP/1.1" 500 84 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:16:27 +0000] "GET /users/allusers HTTP/1.1" 500 86 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:18:33 +0000] "GET /users/4 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:18:50 +0000] "GET /users/allusers HTTP/1.1" 500 86 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:26:11 +0000] "GET /users/allusers HTTP/1.1" 500 86 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:26:58 +0000] "GET /users/ HTTP/1.1" 200 480 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:33:59 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:34:23 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.40.0"
+
+info: ::1 - - [05/Aug/2024:10:35:49 +0000] "PUT /notes/updatenotes/1 HTTP/1.1" 202 115 "-" "PostmanRuntime/7.40.0"
+

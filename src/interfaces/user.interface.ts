@@ -1,4 +1,4 @@
-import { DateOnlyDataType } from "sequelize";
+import { DateOnlyDataType } from 'sequelize';
 
 export interface IUser {
   id?: number;
@@ -8,5 +8,5 @@ export interface IUser {
   password: string;
   mobile: string;
   gender: string;
-  dob ?: DateOnlyDataType;
+  dob?: DateOnlyDataType;
 }

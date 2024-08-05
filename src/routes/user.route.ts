@@ -15,26 +15,16 @@ class UserRoutes {
   private routes = () => {
 
     // register the new user
-    this.router.post('/register', this.UserController.registerUser);
+    this.router.post('/register', this.UserValidator.newUser, this.UserController.registerUser);
 
     // Login user
-    this.router.post('/login', this.UserController.loginUser);
+    this.router.post('/login', this.UserValidator.login, this.UserController.loginUser);
 
-    //Autorize the user
-    //this.router.get('/:id', userAuth, this.UserController.getUser);
+    //route to Get a user by their id
+    this.router.get('/:id', this.UserController.getUser);
 
-    //route to get all users
-    //this.router.get('', this.UserController.getAllUsers);
-
-    //route to create a new user
-    // this.router.post(
-    //   '',
-    //   this.UserValidator.newUser,
-    //   this.UserController.newUser
-    // );
-
-    //route to get a single user by their id
-    //this.router.get('/:id', userAuth, this.UserController.getUser);
+    //route to Get all user 
+    this.router.get('/', this.UserController.getAllUsers);
 
     //route to update a user by their id
     this.router.put('/:id', this.UserController.updateUser);

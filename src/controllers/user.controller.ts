@@ -8,7 +8,6 @@ class UserController {
   public UserService = new userService();
 
   //Register the new User
-
   public registerUser = async (
     req: Request,
     res: Response,
@@ -27,7 +26,6 @@ class UserController {
   };
 
   //Login User
-
   public loginUser = async (
     req: Request,
     res: Response,
@@ -50,8 +48,8 @@ class UserController {
     }
   };
 
- // get autorization user
 
+  // get a user
   public getUser = async (
     req: Request,
     res: Response,
@@ -70,11 +68,7 @@ class UserController {
   };
 
 
-
-
-
-
-  
+  // Get All Users
   public getAllUsers = async (
     req: Request,
     res: Response,
@@ -92,6 +86,8 @@ class UserController {
     }
   };
 
+
+  // Update USer
   public updateUser = async (
     req: Request,
     res: Response,
@@ -109,12 +105,8 @@ class UserController {
     }
   };
 
-  /**
-   * Controller to delete a user
-   * @param  {object} Request - request object
-   * @param {object} Response - response object
-   * @param {Function} NextFunction
-   */
+  
+  // Delete USer
   public deleteUser = async (
     req: Request,
     res: Response,
