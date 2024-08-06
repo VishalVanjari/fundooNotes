@@ -31,6 +31,8 @@
     "pg": "^8.12.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.3.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
     "ts-node-dev": "^1.0.0-pre.62",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"

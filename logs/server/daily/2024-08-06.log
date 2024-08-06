@@ -1,0 +1,1098 @@
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:16:59.414Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:16:59.521Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:23.896Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:24.023Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:27.806Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:28.024Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:29.789Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:29.901Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:34.493Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:34.725Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:39.086Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:39.205Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:42.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:42.327Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:45.335Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:45.447Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:17:47.648Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:17:47.765Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:18:15.948Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:18:16.078Z"}
+error: 
+    status - 500 
+    message - Error: WHERE parameter "createdby" has invalid "undefined" value
+    at PostgresQueryGenerator.whereItemQuery (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-generator.js:2445:13)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-generator.js:2434:25
+    at Array.forEach (<anonymous>)
+    at PostgresQueryGenerator.whereItemsQuery (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-generator.js:2432:35)
+    at PostgresQueryGenerator.getWhereConditions (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-generator.js:2860:19)
+    at PostgresQueryGenerator.selectQuery (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-generator.js:1460:28)
+    at PostgresQueryInterface.select (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:1002:27)
+    at Function.findAll (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\model.js:1824:47)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-06T05:19:02.643Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:26:51.425Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:26:51.548Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:26:55.856Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:26:55.967Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T05:27:02.787Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T05:27:02.912Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:04:32.161Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:04:32.291Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:07:30.150Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:07:30.266Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:07:36.955Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:07:37.069Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:07:39.032Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:07:43.382Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:07:48.419Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:07:48.512Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:08:24.926Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:08:25.163Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:08:26.560Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:08:26.678Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:11:50.571Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:11:59.124Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:11:59.236Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:12:17.365Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:12:22.106Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:12:22.206Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:12:45.260Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:12:48.979Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:12:52.666Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:13:01.076Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:13:04.544Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:13:04.676Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:13:17.938Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:13:18.067Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:13:39.747Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:13:39.878Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:13:45.282Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:13:45.518Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:14:12.273Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:14:12.394Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:14:43.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:14:44.076Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:14:48.049Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:14:48.162Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:24:52.539Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:24:52.644Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:24:53.599Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:24:53.700Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:25:04.105Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:25:04.205Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:26:52.669Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:26:52.788Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:26:55.770Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:26:55.868Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:11.132Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:20.527Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:30.488Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:37.091Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:40.746Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:27:44.400Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:28:02.688Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:28:06.274Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:28:16.054Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:28:47.519Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:28:50.946Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:28:51.084Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:29:27.340Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:31:04.073Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:04.244Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:04.249Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:18.808Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:18.850Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:22.645Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:22.657Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:29.906Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:29.917Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:49.435Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:31:49.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:04.438Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:04.556Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:08.171Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:08.190Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:13.499Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:13.511Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:52.535Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:32:52.703Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:33:07.362Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:07.474Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:07.493Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:12.736Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:12.760Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:33:16.376Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:16.493Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:33:16.531Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:39:06.115Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:39:06.236Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:39:06.243Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at PostgresQueryInterface.select (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:1001:12)
+    at Function.findAll (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\model.js:1824:21)
+    at Function.findOne (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\model.js:1998:12)
+    at Function.findByPk (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\sequelize\src\model.js:1955:12) 
+    url - /users/register 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-08-06T06:40:25.337Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:40:42.644Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:40:42.779Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:40:42.819Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:48:37.473Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:48:37.608Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:48:37.619Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:34.996Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:35.136Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:35.148Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:36.769Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:36.902Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:38.812Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:41.145Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:41.380Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:42.409Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:42.619Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:42.652Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:48.816Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:48.942Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:48.956Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:51:59.699Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:59.966Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:51:59.973Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:52:05.006Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:05.159Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:05.250Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:52:09.211Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:09.351Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:09.356Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:52:11.962Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:12.082Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:13.167Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:25.761Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:25.863Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:29.504Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:29.511Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:33.312Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:33.318Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:44.247Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:44.255Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:48.004Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:48.013Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:52.515Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:52.645Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:59.347Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:52:59.370Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:03.119Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:03.125Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:06.835Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:06.877Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:14.674Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:14.679Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:20.500Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:20.501Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:24.247Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:24.251Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:28.026Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:28.035Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:31.778Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:31.801Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:35.557Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:35.559Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:39.302Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:39.308Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:43.071Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:43.095Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:53:47.132Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:47.259Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:53:47.267Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:54:30.997Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:31.132Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:31.143Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:54:34.207Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:34.336Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:34.850Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:54:38.916Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:39.045Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:54:39.056Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:55:21.907Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:22.020Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:22.038Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:55:25.913Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:26.042Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:26.072Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:55:27.930Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:28.041Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:55:29.903Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:56:47.100Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:56:47.234Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:56:47.246Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:56:49.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:56:49.727Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:56:50.949Z"}
+error: 
+    status - 500 
+    message - ValidationError: "id" is not allowed 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T06:57:03.461Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T06:57:16.817Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:57:16.942Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T06:57:16.956Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: Validation error
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:23:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T06:57:28.071Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:07:54.878Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:07:54.992Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:26.366Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:26.458Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:08:30.608Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:30.881Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:30.901Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:08:35.314Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:35.544Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:08:35.634Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:09:38.683Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:09:38.890Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:09:38.913Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:09:52.230Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:09:52.380Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:09:52.595Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:10:53.169Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:10:53.391Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:10:53.430Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:10:58.733Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:10:58.922Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:10:58.946Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:01.977Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:11:02.858Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:03.046Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:06.196Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:11:54.740Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:54.916Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:54.926Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:11:56.538Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:56.775Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:11:59.554Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:12:05.676Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:15:15.052Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:15.239Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:15.304Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:15:38.320Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:38.587Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:38.591Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:15:45.669Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:45.947Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:15:46.087Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:16:27.135Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:27.353Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:27.366Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:31.646Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:31.651Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:35.794Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:35.819Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:16:39.909Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:40.179Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:16:40.303Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:16:54.673Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:17:51.894Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: Validation error
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:23:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:19:04.326Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: Validation error
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:23:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:21:17.033Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: Validation error
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:23:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T07:21:44.413Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:15.242Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:15.416Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:16.283Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:16.503Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:17.627Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:17.885Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:19.244Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:19.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:20.336Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:21.413Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:21.563Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:23.655Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:23.845Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:24.370Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:23:25.638Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:25.842Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:23:28.969Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:27:27.764Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:27:27.991Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:27:28.003Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T07:27:32.023Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:27:32.564Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T07:27:32.640Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:16:30.687Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:30.930Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:30.938Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:32.653Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:34.945Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:16:36.552Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:36.721Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:38.833Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:16:41.880Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:42.051Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:16:42.810Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:17:14.636Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:14.828Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:14.941Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:19.103Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:19.157Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:23.402Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:23.427Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:17:27.311Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:27.565Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:27.583Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:17:30.050Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:30.242Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:32.315Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:17:42.410Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:42.633Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:42.744Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:17:44.113Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:44.336Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:17:46.917Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:19:54.348Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:19:54.559Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:19:54.614Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:19:58.019Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:19:58.570Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:19:58.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:20:01.948Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:28:00.501Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:00.700Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:00.706Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:41.956Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:41.963Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:45.992Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:46.221Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:28:50.284Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:50.490Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:28:50.609Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:29:53.008Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:29:53.210Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:29:53.223Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:29:59.771Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:00.030Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:00.067Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:30:39.052Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:39.239Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:39.271Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:30:49.526Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:49.754Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:49.794Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:30:55.881Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:56.222Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:30:56.243Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:31:02.716Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:02.851Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:02.904Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:31:08.170Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:08.438Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:08.456Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:31:49.235Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:49.443Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:49.470Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:31:55.199Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:55.480Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:31:55.506Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:01.870Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:02.022Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:02.082Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:04.827Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:05.005Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:06.517Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:11.609Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:11.780Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:11.878Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:16.291Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:16.465Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:16.532Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:21.859Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:22.034Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:22.051Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:27.900Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:28.154Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:28.158Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:30.579Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:30.765Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:32.367Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:38.023Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:38.233Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:38.316Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:48.364Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:48.562Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:48.609Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:32:52.693Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:52.928Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:32:53.122Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:10.297Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:10.551Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:10.567Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:20.851Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:21.021Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:21.046Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:24.225Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:24.366Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:25.257Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:27.352Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:27.538Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:29.491Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:35.417Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:35.660Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:35.754Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:39.014Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:39.216Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:39.814Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:44.626Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:44.888Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:44.926Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:47.152Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:47.333Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:49.117Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:33:53.169Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:53.395Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:33:53.473Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:02.123Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:02.363Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:02.381Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:04.297Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:04.559Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:06.532Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:08.420Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:08.677Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:10.321Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:10.496Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:11.099Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:14.480Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:14.666Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:15.340Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:34:22.408Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:22.648Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:34:22.676Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:35:00.342Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:35:00.561Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:38:40.728Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:38:40.742Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:38:55.215Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:38:55.224Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:39:02.105Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:39:02.287Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:39:02.314Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:41:40.414Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:41:40.797Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:41:41.592Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:41:41.791Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:41:44.850Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:42:16.455Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:42:16.638Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:42:16.651Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:43:35.269Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:43:35.505Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:43:35.578Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:47:46.317Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:47:46.588Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:47:46.660Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:47:49.071Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:47:49.284Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:47:50.519Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:48:14.269Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:14.473Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:14.491Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:40.467Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:40.494Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:44.652Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:44.658Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:48:48.546Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:48.731Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:48:48.739Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:49:14.654Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:49:14.897Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:49:14.923Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:49:44.348Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:49:44.543Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:49:44.573Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:50:41.219Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:41.408Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:41.434Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:50:53.633Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:53.886Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:53.945Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:50:58.644Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:58.819Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:50:58.899Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:20.775Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:20.999Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:21.003Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:35.894Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:36.114Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:36.230Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:38.733Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:38.936Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:40.411Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:45.778Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:46.009Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:46.122Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:54.037Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:54.227Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:54.231Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:52:59.267Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:59.421Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:52:59.482Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:10.554Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:10.747Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:10.793Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:13.800Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:14.061Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:15.001Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:19.300Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:19.506Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:19.526Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:26.108Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:26.298Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:26.382Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:32.125Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:32.279Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:32.287Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:37.092Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:37.340Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:37.342Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:42.331Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:42.616Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:42.781Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:53:57.086Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:57.234Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:53:57.297Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T08:54:00.284Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:54:00.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T08:54:01.308Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T08:54:45.860Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:01:41.177Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:01:41.372Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:01:41.418Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T09:02:10.301Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:40.656Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:40.668Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:44.836Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:44.908Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:11:54.319Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:54.583Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:11:54.668Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:15:56.031Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:15:56.160Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:15:59.998Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:00.008Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:04.004Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:04.043Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:08.111Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:08.119Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:12.153Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:12.167Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:18.140Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:16:18.149Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:21:45.102Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:21:45.113Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:21:49.013Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:21:49.263Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:21:49.298Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:12.492Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:12.517Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:17.111Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:17.119Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:21.384Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:21.398Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:25.844Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:25.853Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:23:39.061Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:39.297Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:39.297Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:23:44.431Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:44.676Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:23:44.720Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:24:21.436Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:24:21.498Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:24:25.680Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:24:25.836Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:24:25.876Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:25:36.882Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:37.134Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:37.141Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:39.894Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:25:41.154Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:41.352Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:44.263Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:25:47.606Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:47.785Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:48.726Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:56.461Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:25:56.478Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:26:00.313Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:00.556Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:00.565Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:26:18.902Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:19.097Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:19.126Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:26:20.934Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:21.108Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:26:23.281Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:17.845Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:17.856Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:35.026Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:35.057Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:31:38.874Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:39.080Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:39.174Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:42.827Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:43.616Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:46.932Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:47.706Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:50.966Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:31:51.800Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:32:03.480Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:32:03.487Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:32:07.437Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:32:07.661Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:32:07.673Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T09:33:12.170Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:44:47.284Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:44:47.394Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:44:47.519Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T09:45:41.548Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:47:06.779Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:47:06.899Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:47:06.916Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:47:20.434Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:47:20.551Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:47:20.564Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T09:51:48.368Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T09:52:16.527Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:21.937Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:21.950Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:54:25.538Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:25.655Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:25.662Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:54:27.680Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:27.789Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:29.328Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:54:31.605Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:31.697Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:33.103Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:54:51.483Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:51.596Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:51.689Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:54:54.968Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:55.080Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:54:55.536Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T09:56:22.473Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T09:58:32.340Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T09:58:32.440Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T10:00:29.924Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T10:00:59.122Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:00:59.261Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:00:59.280Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-08-06T10:01:01.598Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T10:20:53.150Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:20:53.285Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:20:53.293Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T10:22:34.012Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T10:23:56.014Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:23:56.171Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:23:56.209Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T10:24:33.629Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:24:33.751Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:24:33.769Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T10:24:44.642Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:24:44.754Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T10:24:44.803Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T10:25:52.654Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T10:25:59.182Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.module.exports [as verify] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:24:45
+    at Generator.next (<anonymous>)
+    at C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\middlewares\auth.middleware.ts:14:20)
+    at Layer.handle [as handle_request] (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\node_modules\express\lib\router\route.js:119:3) 
+    url - /notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T10:26:44.292Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:23.964Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:23.968Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:42.054Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:42.060Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:01:46.193Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:46.422Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:01:46.512Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:12.151Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:12.343Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:12.387Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:19.970Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:20.255Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:20.270Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:34.133Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:34.377Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:34.421Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:42.160Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:42.351Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:42.388Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:44.232Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:44.420Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:46.367Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:48.751Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:48.931Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:50.386Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:02:58.341Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:58.591Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:02:58.603Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:03:12.175Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:03:12.404Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:03:12.416Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:03:50.388Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:03:50.682Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:03:50.705Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:04:25.388Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:04:25.646Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:04:25.675Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:45.533Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:45.685Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:50.176Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:50.201Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:50:54.322Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:54.525Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:50:54.568Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:51:05.353Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:51:05.531Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:51:05.575Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:52:47.348Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:52:47.571Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:52:47.613Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:53:25.767Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:26.027Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:26.036Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:53:32.843Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:33.035Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:33.053Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:35.360Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:37.188Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:53:39.285Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:39.541Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:53:41.189Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:02.983Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:02.985Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:54:06.889Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:07.145Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:07.150Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:54:19.465Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:19.684Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:19.740Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:54:45.288Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:45.454Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:45.472Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:54:47.162Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:47.395Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:54:49.806Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:55:22.090Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:55:22.307Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:59:06.892Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:07.120Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:07.143Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:59:27.307Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:27.514Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:27.531Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T11:59:50.820Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:51.081Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T11:59:51.093Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:00:15.034Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:00:15.352Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:00:15.387Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:00:22.325Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:00:22.588Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:00:22.605Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-06T12:00:43.753Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:04:44.150Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:04:44.389Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:04:44.400Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:06:11.044Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:06:11.204Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:06:11.276Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:07:30.806Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:07:30.982Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:07:30.991Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:07:32.553Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:07:32.741Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:07:35.159Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:08:49.594Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:08:49.781Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:08:49.817Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:09:12.533Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:09:12.775Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:09:12.842Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:09:24.815Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:09:25.027Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:09:25.172Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:10:15.218Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:10:15.433Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:10:15.540Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:11:21.871Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:22.048Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:22.098Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:11:37.977Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:38.189Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:38.237Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:11:45.810Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:46.078Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:11:46.090Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:13:45.541Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:13:45.544Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:14:52.922Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:14:53.102Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:14:53.135Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:14.163Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:14.366Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:14.381Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:17.220Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:17.428Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:18.679Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:22.257Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:22.436Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:23.106Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:44.272Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:44.461Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:44.496Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:48.530Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:48.707Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:48.762Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:49.947Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:16:52.883Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:53.059Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:16:53.947Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:04.180Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:04.339Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:04.381Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:05.515Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:05.724Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:07.942Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:08.195Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:08.654Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:10.102Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:10.256Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:12.515Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:12.749Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:13.121Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:18.040Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:18.332Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:18.383Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:22.439Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:22.659Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:22.701Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:35.477Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:35.647Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:35.665Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:37.156Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:37.377Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:39.834Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:41.208Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:41.357Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-06T12:17:43.458Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:43.663Z"}
+info: Connected to the database. {"timestamp":"2024-08-06T12:17:44.294Z"}

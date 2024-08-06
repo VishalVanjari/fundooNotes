@@ -7,7 +7,8 @@
     "rootDir": "./src",
     "esModuleInterop": true,
     "noImplicitAny": false,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "src/tests"]

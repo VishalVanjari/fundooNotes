@@ -1,0 +1,803 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+      "title": "Fundoo Notes",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ],
+    "tags": [
+      {
+        "name": "User",
+        "description": "Operations about user"
+      },
+      {
+        "name": "Notes",
+        "description": "Operations about notes"
+      },
+      {
+        "name": "Default",
+        "description": "Welcome to the application"
+      }
+    ],
+    "components": {
+      "securitySchemes": {
+        "bearerAuth": {
+          "type": "http",
+          "scheme": "bearer",
+          "bearerFormat": "JWT"
+        }
+      }
+    },
+    "security": [
+      {
+        "bearerAuth": []
+      }
+    ],
+    "paths": {
+      "/": {
+        "get": {
+          "summary": "Default Application Page",
+          "operationId": "analyse",
+          "description": "Check if the application is available",
+          "tags": [
+            "Default"
+          ],
+          "requestBody": {
+            "description": "Nothing  can be received"
+          },
+          "responses": {
+            "200": {
+              "description": "Welcome"
+            }
+          }
+        }
+      },
+      "/users/register": {
+        "post": {
+          "summary": "User Registration",
+          "operationId": "register user",
+          "description": "User is Created",
+          "tags": [
+            "User"
+          ],
+          "requestBody": {
+            "description": "Enter user details but names, mobile number, email and password are manditory.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "firstName": {
+                      "type": "string",
+                      "description": "The user's first name"
+                    },
+                    "lastName": {
+                      "type": "string",
+                      "description": "The user's last name"
+                    },
+                    "email": {
+                      "type": "string",
+                      "description": "The user's email"
+                    },
+                    "password": {
+                      "type": "string",
+                      "description": "The user's password"
+                    },
+                    "mobile": {
+                      "type": "string",
+                      "description": "The user's mobile number"
+                    },
+                    "gender": {
+                      "type": "string",
+                      "description": "The user's gender"
+                    },
+                    "dob": {
+                      "type": "string",
+                      "format": "date",
+                      "description": "The user's date of birth"
+                    }
+                  },
+                  "required": [
+                    "firstName",
+                    "lastName",
+                    "email",
+                    "password",
+                    "mobileNo",
+                    "gender"
+                  ]
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "User Registred",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 201
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer"
+                          },
+                          "firstName": {
+                            "type": "string"
+                          },
+                          "lastName": {
+                            "type": "string"
+                          },
+                          "email": {
+                            "type": "string"
+                          },
+                          "password": {
+                            "type": "string",
+                            "description": "Hash of user password"
+                          },
+                          "mobileNo": {
+                            "type": "integer"
+                          },
+                          "gender": {
+                            "type": "string"
+                          },
+                          "dob": {
+                            "type": "string",
+                            "format": "date"
+                          }
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "User created successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/users/login/": {
+        "post": {
+          "summary": "User login",
+          "operationId": "Analysis Sign",
+          "description": "User is authenticated",
+          "tags": [
+            "User"
+          ],
+          "requestBody": {
+            "description": "email and password of the user",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "email": {
+                      "type": "string",
+                      "description": "The user's email"
+                    },
+                    "password": {
+                      "type": "string",
+                      "description": "The user's password"
+                    }
+                  },
+                  "required": [
+                    "email",
+                    "password"
+                  ]
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Login result",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "xyz@gmail.com Login successful"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "User fetched successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/create/": {
+        "post": {
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "summary": "Creates new Notes",
+          "operationId": "Creation",
+          "description": "Creation of user using token",
+          "tags": [
+            "Notes"
+          ],
+          "requestBody": {
+            "description": "ELF binary to analyse",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "title of note"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "description of note"
+                    },
+                    "color": {
+                      "type": "string",
+                      "description": "color of note"
+                    },
+                    "archive": {
+                      "type": "boolean",
+                      "example": false
+                    },
+                    "trash": {
+                      "type": "boolean",
+                      "example": false
+                    }
+                  }
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Note creation result",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "archive": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "trash": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "id": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "title": {
+                            "type": "string",
+                            "example": "Title 1"
+                          },
+                          "description": {
+                            "type": "string",
+                            "example": "description 1"
+                          },
+                          "color": {
+                            "type": "string",
+                            "example": "white"
+                          },
+                          "createdBy": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T10:54:03.077Z"
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T10:54:03.077Z"
+                          }
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note Created Successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/updatenotes/{id}": {
+        "put": {
+          "summary": "Updates new Notes",
+          "operationId": "Updation",
+          "description": "Updation of user notes using token",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],"parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "requestBody": {
+            "description": "ELF binary to analyse",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "title of note"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "description of note"
+                    },
+                    "color": {
+                      "type": "string",
+                      "description": "color of note"
+                    },
+                    "archive": {
+                      "type": "boolean",
+                      "example": false
+                    },
+                    "trash": {
+                      "type": "boolean",
+                      "example": false
+                    }
+                  }
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "200": {
+              "description": "Note update result",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "title": {
+                            "type": "string",
+                            "example": "Title 2"
+                          },
+                          "description": {
+                            "type": "string",
+                            "example": "description 2"
+                          },
+                          "color": {
+                            "type": "string",
+                            "example": "pink"
+                          },
+                          "archive": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "trash": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "createdBy": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T10:54:03.077Z"
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T11:04:22.733Z"
+                          }
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note Updated Successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/getnotes/": {
+        "get": {
+          "summary": "Fetches all notes of user",
+          "operationId": "Fetching",
+          "description": "Fetching of user notes using token",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "requestBody": {
+            "description": "token required for fetching notes"
+          },
+          "responses": {
+            "200": {
+              "description": "Notes fetch result",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "integer",
+                              "example": 1
+                            },
+                            "title": {
+                              "type": "string",
+                              "example": "Title 3"
+                            },
+                            "description": {
+                              "type": "string",
+                              "example": "description 3"
+                            },
+                            "color": {
+                              "type": "string",
+                              "example": "pink"
+                            },
+                            "archive": {
+                              "type": "boolean",
+                              "example": false
+                            },
+                            "trash": {
+                              "type": "boolean",
+                              "example": false
+                            },
+                            "createdBy": {
+                              "type": "integer",
+                              "example": 1
+                            },
+                            "createdAt": {
+                              "type": "string",
+                              "format": "date-time",
+                              "example": "2024-08-06T10:54:03.077Z"
+                            },
+                            "updatedAt": {
+                              "type": "string",
+                              "format": "date-time",
+                              "example": "2024-08-06T11:04:22.733Z"
+                            }
+                          }
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Notes fetched successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/getnotes/{id}": {
+        "get": {
+          "summary": "gets specific note",
+          "operationId": "retrival",
+          "description": "retrives user specific note",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note fetched successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "title": {
+                            "type": "string",
+                            "example": "Title 1"
+                          },
+                          "description": {
+                            "type": "string",
+                            "example": "description 1"
+                          },
+                          "color": {
+                            "type": "string",
+                            "example": "pink"
+                          },
+                          "archive": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "trash": {
+                            "type": "boolean",
+                            "example": false
+                          },
+                          "createdBy": {
+                            "type": "integer",
+                            "example": 1
+                          },
+                          "createdAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T10:54:03.077Z"
+                          },
+                          "updatedAt": {
+                            "type": "string",
+                            "format": "date-time",
+                            "example": "2024-08-06T11:04:22.733Z"
+                          }
+                        }
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note fetched successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/archivenotes/{id}": {
+        "put": {
+          "summary": "archive selected note",
+          "operationId": "archiving",
+          "description": "archiving user specific note",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note archived successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "Note archived"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note Archive successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/trashnotes/{id}": {
+        "put": {
+          "summary": "trash user specific note",
+          "operationId": "trashing",
+          "description": "trashing of user note using token",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note trashed successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "Note trashed"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note Trashed successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/notes/deletenotes/{id}": {
+        "delete": {
+          "summary": "deleting user specific note",
+          "operationId": "deletion",
+          "description": "deletion of user note using token",
+          "tags": [
+            "Notes"
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "schema": {
+                "type": "integer",
+                "example": 1
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Note deleted successfully",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "code": {
+                        "type": "integer",
+                        "example": 200
+                      },
+                      "data": {
+                        "type": "string",
+                        "example": "Note deleted"
+                      },
+                      "message": {
+                        "type": "string",
+                        "example": "Note Deleted successfully"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
