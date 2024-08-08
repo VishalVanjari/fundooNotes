@@ -12,7 +12,7 @@ class NotesService {
   private Notes = notes(sequelize, DataTypes);
 
   //Create new Note
-  public createNote = async (body: any, id: number): Promise<any> => {
+  public createNote = async (id: number,body: any): Promise<any> => {
     try {
       body.createdby = id;
       const data = await this.Notes.create(body);
@@ -49,7 +49,7 @@ class NotesService {
   };
 
   //Archive the note
-  public archiveNotes = async (id, userID, body) => {
+  public archiveNotes = async (id, userID) => {
     try {
       const data = await this.Notes.findOne({
         where: { id: id, createdby: userID }
@@ -65,7 +65,7 @@ class NotesService {
   };
 
   //Trash the note
-  public trashNotes = async (id, userID, body) => {
+  public trashNotes = async (id, userID) => {
     try {
       const data = await this.Notes.findOne({
         where: { id: id, createdby: userID }

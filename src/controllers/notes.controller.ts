@@ -106,8 +106,7 @@ class NotesController {
     try {
       const data = await this.NotesService.archiveNotes(
         req.params.id,
-        (req as any).id,
-        req.body
+        (req as any).id
       );
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
@@ -118,7 +117,7 @@ class NotesController {
       next(error);
     }
   };
-
+  
 
   // Trash the notes
   public trashNotes = async (
@@ -129,8 +128,7 @@ class NotesController {
     try {
       const data = await this.NotesService.trashNotes(
         req.params.id,
-        (req as any).id,
-        req.body
+        (req as any).id
       );
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
@@ -141,7 +139,6 @@ class NotesController {
       next(error);
     }
   };
-  
 
   // Delete Node by id
   public deleteNotes = async (

@@ -48,7 +48,6 @@ class UserController {
     }
   };
 
-
   // get a user
   public getUser = async (
     req: Request,
@@ -56,7 +55,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.getUser(req.params.id);
+      const data = await this.UserService.getUser((req as any).id);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -66,7 +65,6 @@ class UserController {
       next(error);
     }
   };
-
 
   // Get All Users
   public getAllUsers = async (
@@ -86,7 +84,6 @@ class UserController {
     }
   };
 
-
   // Update USer
   public updateUser = async (
     req: Request,
@@ -94,7 +91,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.updateUser(req.params.id, req.body);
+      const data = await this.UserService.updateUser((req as any).id, req.body);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
@@ -105,7 +102,6 @@ class UserController {
     }
   };
 
-  
   // Delete USer
   public deleteUser = async (
     req: Request,
@@ -113,11 +109,69 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      await this.UserService.deleteUser(req.params.id);
+      await this.UserService.deleteUser((req as any).id);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: {},
         message: 'User deleted successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+
+  //Change Password
+
+  // public change = async (
+  //   req: Request,
+  //   res: Response,
+  //   next: NextFunction
+  // ): Promise<any> => {
+  //   try {      
+  //     const data = await this.UserService.change((req as any).id, req.body);
+      
+  //     res.status(HttpStatus.ACCEPTED).json({
+  //       code: HttpStatus.ACCEPTED,
+  //       data: data,
+  //       message: 'Password change successfully'
+  //     });
+  //   } catch (error) {
+  //     next(error);
+  //   }
+  // };
+
+  //forget Password
+
+  public forget = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.forget(req.body.email);
+      res.status(HttpStatus.CREATED).json({
+        code: HttpStatus.CREATED,
+        data: data,
+        message: 'Token Verify successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  // reset password
+  public reset = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.reset((req as any).email, req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Password updated successfully'
       });
     } catch (error) {
       next(error);

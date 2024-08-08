@@ -5,12 +5,14 @@ import user from '../models/user';
 import { log } from 'winston';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import Util from '../utils/user.util';
 
 const secretKey = process.env.SECRET_KEY;
 const saltRound: number = 10;
 
 class UserService {
   private User = user(sequelize, DataTypes);
+  private util = new Util();
 
   //Register a new user
   public registerUser = async (body) => {
@@ -39,11 +41,7 @@ class UserService {
         obj.data = null;
         return obj;
       }
-      const token = jwt.sign(
-        { id: data.id, username: data.firstName },
-        secretKey,
-        { expiresIn: '1h' }
-      );
+      const token = await this.util.login(data.id,data.firstName);
       obj.token = token;
       return obj;
     } catch (error) {
@@ -65,18 +63,58 @@ class UserService {
 
   //update a user
   public updateUser = async (id, body) => {
-    const hashedPassword = await bcrypt.hash(body.password, saltRound);
-    body.password = hashedPassword;
     await this.User.update(body, {
       where: { id: id }
     });
     return body;
   };
 
+  
+  //change password
+
+  // public change = async (id, body) => {
+  //   const hashedPassword = await bcrypt.hash(body.password, saltRound);
+  //   body.password = hashedPassword;
+  //   await this.User.update(body, {
+  //     where: { id: id }
+  //   });
+  //   return body;
+  // };
+
   //delete a user
   public deleteUser = async (id) => {
     await this.User.destroy({ where: { id: id } });
     return '';
+  };
+
+  //forget User
+  public forget = async (email) => {
+    try {
+      const data = await this.User.findOne({ where: { email: email } });
+      let obj = {
+        data: data,
+        token: '',
+        message: 'Invalid User'
+      };
+      let token = '';
+      if (data) {
+        token = await this.util.forgetUser(email);
+      }
+      obj.token = token;
+      return obj;
+    } catch (error) {
+      throw new error('Error Logging user: ');
+    }
+  };
+
+   //Reset a Password
+   public reset = async (email, body) => {
+    const hashedPassword = await bcrypt.hash(body.password, saltRound);
+    body.password = hashedPassword;
+    await this.User.update({password : body.password}, {
+      where: { email: email }
+    });
+    return body;
   };
 }
 

@@ -9,7 +9,7 @@ import Logger from './config/logger';
 import morgan from 'morgan';
 import swaggerUi from 'swagger-ui-express';
 import swaggerJsdoc from 'swagger-jsdoc';
-import swagger from "./swagger/swagger.json"
+const swagger = require ("./swagger/swagger.json");
 
 class App {
   public app: Application;
