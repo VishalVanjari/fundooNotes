@@ -15,8 +15,8 @@ class NotesController {
   ): Promise<any> => {
     try {
       const data = await this.NotesService.createNote(
-        req.body,
-        (req as any).id
+        (req as any).id,
+        req.body
       );
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
@@ -27,7 +27,6 @@ class NotesController {
       next(error);
     }
   };
-
 
   // Get All Notes
   public getAllNotes = async (
@@ -46,7 +45,6 @@ class NotesController {
       next(error);
     }
   };
-
 
   //Get Specific Note
   public getSpecificNotes = async (
@@ -68,7 +66,6 @@ class NotesController {
       next(error);
     }
   };
-
 
   // Update Note
   public updateNotes = async (
@@ -96,7 +93,6 @@ class NotesController {
     }
   };
 
-
   // Archive the notes
   public archiveNotes = async (
     req: Request,
@@ -117,7 +113,6 @@ class NotesController {
       next(error);
     }
   };
-  
 
   // Trash the notes
   public trashNotes = async (

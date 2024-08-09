@@ -33,7 +33,7 @@ class UserRoutes {
     this.router.get('/', this.UserController.getAllUsers);
 
     // route to Change password
-    //this.router.post('/change',userAuth, this.UserController.change);
+    this.router.post('/change',userAuth, this.UserController.change);
 
     // route to forget password
     this.router.post('/forget',this.UserController.forget);

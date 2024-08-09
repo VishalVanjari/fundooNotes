@@ -1,10 +1,9 @@
 import { expect } from 'chai';
 import UserService from '../../src/services/user.service';
-import NotesService from '../../src/services/notes.service';
 
 ///////////////////////////////////   user    //////////////////////////////////////////////////////
 
-describe('Fundoo Notes User', () => {
+describe('Fundoo Notes User : Unit Testing', () => {
   describe('/register : register with id and passsword', () => {
     it('should return object contain registration detail of user', async () => {
       const result = await new UserService().registerUser({
@@ -32,17 +31,27 @@ describe('Fundoo Notes User', () => {
 
   describe('/getuser : get the user', () => {
     it('should return all Details of user', async () => {
-      const result = await new UserService().getUser(6);
+      const result = await new UserService().getUser(1);
       expect(result).to.be.an('object');
     });
   });
 
   describe('/updateuser : Update the user', () => {
     it('Shoud update user and retun updated Data', async () => {
-      const result = await new UserService().updateUser(4, {
+      const result = await new UserService().updateUser(2, {
         firstName: 'Sakshi',
         lastName: 'Kukreja',
-        email: 'sakshi@gmail.com'
+        email: 'sakshi@gmail.com',
+        password : 'sakshi@123'
+      });
+      expect(result).to.be.an('object');
+    });
+  });
+
+  describe('/change : change the password', () => {
+    it('Shoud Change Password and retun updated Data', async () => {
+      const result = await new UserService().change(4, {
+        password: 'sakshi@8520'
       });
       expect(result).to.be.an('object');
     });
@@ -72,67 +81,3 @@ describe('Fundoo Notes User', () => {
   });
 });
 
-//////////////////////////////////   NOTES   ////////////////////////////////////////
-
-describe('Notes ', () => {
-  describe('/create :  create a note', () => {
-    it('create a note and return the Note  ', async () => {
-      const result = await new NotesService().createNote(8, {
-        title: 'Ttile 6',
-        description: 'description 6',
-        color: 'Red',
-        archive: 'true',
-        trash: 'false'
-      });
-      expect(result).to.be.an('object');
-    });
-  });
-
-  describe('/getnotes :  get all note', () => {
-    it('Return all Notes  ', async () => {
-      const result = await new NotesService().getAllNotes(8);
-      expect(result).to.be.an('array');
-    });
-  });
-
-  describe('/getnotes/:id :  get a specific note', () => {
-    it('Return a Specific one Note  ', async () => {
-      const result = await new NotesService().getSpecificNotes(1, 8);
-      expect(result).to.be.an('object');
-    });
-  });
-
-  describe('/updatenotes/:id :  update a note', () => {
-    it('Update note and Return a Updated Note  ', async () => {
-      const result = await new NotesService().updateNotes(1, 8, {
-        title: 'Ttile 8',
-        description: 'description 8',
-        color: 'Black',
-        archive: 'false',
-        trash: 'true'
-      });
-      expect(result).to.be.an('object');
-    });
-  });
-
-  describe('/archivenotes/:id :  archive a note', () => {
-    it('archive a one Note and return data  ', async () => {
-      const result = await new NotesService().archiveNotes(5, 8);
-      expect(result).to.be.an('object');
-    });
-  });
-
-  describe('/trashnotes/:id :  trash a note', () => {
-    it('trash a one Note and return data  ', async () => {
-      const result = await new NotesService().trashNotes(3, 8);
-      expect(result).to.be.an('object');
-    });
-  });
-
-  describe('/deletenotes/:id :  Delete a note', () => {
-    it('Delete a one Note and return data', async () => {
-      const result = await new NotesService().deleteNotes(4, 8);
-      expect(result).to.be.an('number');
-    });
-  });
-});

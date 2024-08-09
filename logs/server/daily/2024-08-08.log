@@ -106,3 +106,19 @@ info: Connected to the database. {"timestamp":"2024-08-08T11:26:20.249Z"}
 info: Connected to the database. {"timestamp":"2024-08-08T11:26:35.088Z"}
 info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T11:27:44.905Z"}
 info: Connected to the database. {"timestamp":"2024-08-08T11:27:45.142Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T12:37:59.619Z"}
+info: Connected to the database. {"timestamp":"2024-08-08T12:37:59.787Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T12:38:17.220Z"}
+info: Connected to the database. {"timestamp":"2024-08-08T12:38:17.388Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T13:03:42.989Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T13:04:14.655Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T13:05:36.984Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T13:15:57.196Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2024-08-08T13:15:57.233Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-08T13:17:45.897Z"}

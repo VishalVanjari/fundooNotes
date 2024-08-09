@@ -121,25 +121,23 @@ class UserController {
   };
 
 
-  //Change Password
-
-  // public change = async (
-  //   req: Request,
-  //   res: Response,
-  //   next: NextFunction
-  // ): Promise<any> => {
-  //   try {      
-  //     const data = await this.UserService.change((req as any).id, req.body);
-      
-  //     res.status(HttpStatus.ACCEPTED).json({
-  //       code: HttpStatus.ACCEPTED,
-  //       data: data,
-  //       message: 'Password change successfully'
-  //     });
-  //   } catch (error) {
-  //     next(error);
-  //   }
-  // };
+  // Change Password of USer
+  public change = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.change((req as any).id, req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Password changed successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
 
   //forget Password
 
@@ -150,9 +148,10 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.forget(req.body.email);
-      res.status(HttpStatus.CREATED).json({
-        code: HttpStatus.CREATED,
-        data: data,
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data.data,
+        token: data.token,
         message: 'Token Verify successfully'
       });
     } catch (error) {

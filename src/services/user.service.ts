@@ -63,6 +63,8 @@ class UserService {
 
   //update a user
   public updateUser = async (id, body) => {
+    const hashedPassword = await bcrypt.hash(body.password, saltRound);
+    body.password = hashedPassword;
     await this.User.update(body, {
       where: { id: id }
     });
@@ -72,14 +74,14 @@ class UserService {
   
   //change password
 
-  // public change = async (id, body) => {
-  //   const hashedPassword = await bcrypt.hash(body.password, saltRound);
-  //   body.password = hashedPassword;
-  //   await this.User.update(body, {
-  //     where: { id: id }
-  //   });
-  //   return body;
-  // };
+  public change = async (id, body) => {
+    const hashedPassword = await bcrypt.hash(body.password, saltRound);
+    body.password = hashedPassword;
+    await this.User.update(body, {
+      where: { id: id }
+    });
+    return body;
+  };
 
   //delete a user
   public deleteUser = async (id) => {
