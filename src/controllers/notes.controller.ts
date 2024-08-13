@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
 import notesService from '../services/notes.service';
-
 import { Request, Response, NextFunction } from 'express';
 
 class NotesController {

@@ -120,7 +120,6 @@ class UserController {
     }
   };
 
-
   // Change Password of USer
   public change = async (
     req: Request,

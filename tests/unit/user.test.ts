@@ -42,7 +42,7 @@ describe('Fundoo Notes User : Unit Testing', () => {
         firstName: 'Sakshi',
         lastName: 'Kukreja',
         email: 'sakshi@gmail.com',
-        password : 'sakshi@123'
+        password: 'sakshi@123'
       });
       expect(result).to.be.an('object');
     });
@@ -80,4 +80,3 @@ describe('Fundoo Notes User : Unit Testing', () => {
     });
   });
 });
-

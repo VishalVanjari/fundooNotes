@@ -6,18 +6,18 @@ export { DataTypes } from 'sequelize';
 
 const logger = Logger.logger;
 
-let DATABASE = process.env.DATABASE;
-let USERNAME = process.env.DB_USERNAME;
-let PASSWORD = process.env.PASSWORD;
-let HOST = process.env.HOST;
-let PORT = parseInt(process.env.PORT);
+const DATABASE = process.env.DATABASE;
+const USERNAME = process.env.DB_USERNAME;
+const PASSWORD = process.env.PASSWORD;
+const HOST = process.env.HOST;
+const PORT = parseInt(process.env.PORT);
 
 if (process.env.NODE_ENV === 'test') {
-  let DATABASE = process.env.DATABASE;
-  let USERNAME = process.env.DB_USERNAME;
-  let PASSWORD = process.env.PASSWORD;
-  let HOST = process.env.HOST;
-  let PORT = parseInt(process.env.PORT);
+  const DATABASE = process.env.DATABASE;
+  const USERNAME = process.env.DB_USERNAME;
+  const PASSWORD = process.env.PASSWORD;
+  const HOST = process.env.HOST;
+  const PORT = parseInt(process.env.PORT);
 }
 
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {

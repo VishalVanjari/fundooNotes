@@ -22,23 +22,20 @@ export const userAuth = async (
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
-    console.log("***************************",bearerToken);
-    
+    console.log('***************************', bearerToken);
 
     const { id, username }: any = await jwt.verify(bearerToken, secretKey);
-    
+
     (req as any).id = id;
     (req as any).username = username;
 
-    console.log((req as any).id, "ID ***************************");
-    
+    console.log((req as any).id, 'ID ***************************');
 
     next();
   } catch (error) {
     next(error);
   }
 };
-
 
 export const forgetUserAuth = async (
   req: Request,
@@ -53,7 +50,7 @@ export const forgetUserAuth = async (
         message: 'Authorization token is required'
       };
     bearerToken = bearerToken.split(' ')[1];
-    const email  = await util.forgetUseVerify(bearerToken); 
+    const email = await util.forgetUseVerify(bearerToken);
     (req as any).email = email;
 
     next();

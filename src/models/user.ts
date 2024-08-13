@@ -4,7 +4,7 @@
 import { Model, DateOnlyDataType, DataTypes } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
 import bcrypt from 'bcrypt';
-const saltRound: number = 10;
+const saltRound = 10;
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
     public id;

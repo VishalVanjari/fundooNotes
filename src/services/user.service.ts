@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 import Util from '../utils/user.util';
 
 const secretKey = process.env.SECRET_KEY;
-const saltRound: number = 10;
+const saltRound = 10;
 
 class UserService {
   private User = user(sequelize, DataTypes);
@@ -30,7 +30,7 @@ class UserService {
   public loginUser = async (email, password) => {
     try {
       const data = await this.User.findOne({ where: { email: email } });
-      let obj = {
+      const obj = {
         data: data,
         token: '',
         message: 'Invalid User'
@@ -41,7 +41,7 @@ class UserService {
         obj.data = null;
         return obj;
       }
-      const token = await this.util.login(data.id,data.firstName);
+      const token = await this.util.login(data.id, data.firstName);
       obj.token = token;
       return obj;
     } catch (error) {
@@ -71,7 +71,6 @@ class UserService {
     return body;
   };
 
-  
   //change password
 
   public change = async (id, body) => {
@@ -93,7 +92,7 @@ class UserService {
   public forget = async (email) => {
     try {
       const data = await this.User.findOne({ where: { email: email } });
-      let obj = {
+      const obj = {
         data: data,
         token: '',
         message: 'Invalid User'
@@ -109,13 +108,16 @@ class UserService {
     }
   };
 
-   //Reset a Password
-   public reset = async (email, body) => {
+  //Reset a Password
+  public reset = async (email, body) => {
     const hashedPassword = await bcrypt.hash(body.password, saltRound);
     body.password = hashedPassword;
-    await this.User.update({password : body.password}, {
-      where: { email: email }
-    });
+    await this.User.update(
+      { password: body.password },
+      {
+        where: { email: email }
+      }
+    );
     return body;
   };
 }

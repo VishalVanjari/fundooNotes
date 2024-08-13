@@ -12,7 +12,7 @@ class NotesService {
   private Notes = notes(sequelize, DataTypes);
 
   //Create new Note
-  public createNote = async (id: number,body: any): Promise<any> => {
+  public createNote = async (id: number, body: any): Promise<any> => {
     try {
       body.createdby = id;
       const data = await this.Notes.create(body);

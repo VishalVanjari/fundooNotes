@@ -13,12 +13,19 @@ class UserRoutes {
   }
 
   private routes = () => {
-
     // register the new user
-    this.router.post('/register', this.UserValidator.newUser, this.UserController.registerUser);
+    this.router.post(
+      '/register',
+      this.UserValidator.newUser,
+      this.UserController.registerUser
+    );
 
     // Login user
-    this.router.post('/login', this.UserValidator.login, this.UserController.loginUser);
+    this.router.post(
+      '/login',
+      this.UserValidator.login,
+      this.UserController.loginUser
+    );
 
     //route to Get a user by their id
     this.router.get('/getuser', userAuth, this.UserController.getUser);
@@ -27,19 +34,19 @@ class UserRoutes {
     this.router.put('/updateuser', userAuth, this.UserController.updateUser);
 
     //route to delete a user by their id
-    this.router.delete('/deleteuser',userAuth,  this.UserController.deleteUser);
+    this.router.delete('/deleteuser', userAuth, this.UserController.deleteUser);
 
-    //route to Get all user 
+    //route to Get all user
     this.router.get('/', this.UserController.getAllUsers);
 
     // route to Change password
-    this.router.post('/change',userAuth, this.UserController.change);
+    this.router.post('/change', userAuth, this.UserController.change);
 
     // route to forget password
-    this.router.post('/forget',this.UserController.forget);
+    this.router.post('/forget', this.UserController.forget);
 
     // route to reset password
-    this.router.post('/reset',forgetUserAuth,this.UserController.reset);
+    this.router.post('/reset', forgetUserAuth, this.UserController.reset);
   };
 
   public getRoutes = (): IRouter => {
