@@ -5,17 +5,20 @@ import notes from '../models/notes';
 import { log } from 'winston';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
+import Util from '../utils/notes.util';
 
 const secretKey = process.env.SECRET_KEY;
 
 class NotesService {
   private Notes = notes(sequelize, DataTypes);
+  private util = new Util(); 
 
   //Create new Note
   public createNote = async (id: number, body: any): Promise<any> => {
     try {
       body.createdby = id;
       const data = await this.Notes.create(body);
+      const updateData = await this.util.update(id,data);
       return data;
     } catch (error) {
       throw new Error('Error Creating Note : ' + error.message);
@@ -25,6 +28,7 @@ class NotesService {
   //get all Notes
   public getAllNotes = async (id: number): Promise<any> => {
     const data = await this.Notes.findAll({ where: { createdby: id } });
+
     return data;
   };
 

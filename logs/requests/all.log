@@ -4298,3 +4298,43 @@ info: ::ffff:127.0.0.1 - - [09/Aug/2024:09:57:59 +0000] "POST /users/forget HTTP
 
 info: ::ffff:127.0.0.1 - - [09/Aug/2024:09:57:59 +0000] "POST /users/reset HTTP/1.1" 202 137 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [14/Aug/2024:08:43:40 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:44:00 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:45:12 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:46:59 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:47:12 +0000] "POST /users/login HTTP/1.1" 200 60 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:48:02 +0000] "POST /users/register HTTP/1.1" 201 267 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:48:08 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:48:29 +0000] "GET /notes/getnotes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:49:08 +0000] "POST /notes/create HTTP/1.1" 201 172 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:49:27 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:08:49:41 +0000] "GET /notes/getnotes HTTP/1.1" 200 294 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:00:46 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:01:15 +0000] "POST /notes/create HTTP/1.1" 201 175 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:01:26 +0000] "POST /notes/create HTTP/1.1" 201 175 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:01:41 +0000] "GET /notes/getnotes HTTP/1.1" 200 528 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:01:56 +0000] "GET /notes/getnotes HTTP/1.1" 200 528 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:03:35 +0000] "GET /notes/getnotes HTTP/1.1" 200 303 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:03:51 +0000] "POST /notes/create HTTP/1.1" 201 174 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:03:56 +0000] "GET /notes/getnotes HTTP/1.1" 200 423 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [14/Aug/2024:12:31:55 +0000] "POST /users/register HTTP/1.1" 201 265 "-" "PostmanRuntime/7.41.1"
+

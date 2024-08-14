@@ -20,6 +20,7 @@ class UserService {
       // const hashedPassword = await bcrypt.hash(body.password, saltRound);
       // body.password = hashedPassword;
       const data = await this.User.create(body);
+      const message = await this.util.sendMessage(data);
       return data;
     } catch (error) {
       throw new Error('Error registering user: ' + error.message);
