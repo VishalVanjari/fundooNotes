@@ -1,0 +1,15 @@
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-26T06:42:21.902Z"}
+info: Connected to the database. {"timestamp":"2024-08-26T06:42:22.026Z"}
+error: 
+    status - 500 
+    message - Error: Error registering user: Validation error
+    at UserService.<anonymous> (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:26:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Vishal\Documents\BridgeLabz\fundooNotes\fundooNotes\src\services\user.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-26T06:43:11.988Z"}
+info: Server started at http://localhost:3000 {"timestamp":"2024-08-26T07:16:45.836Z"}
+info: Connected to the database. {"timestamp":"2024-08-26T07:16:45.957Z"}

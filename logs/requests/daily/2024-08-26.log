@@ -1,0 +1,10 @@
+info: ::1 - - [26/Aug/2024:06:43:12 +0000] "POST /users/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [26/Aug/2024:06:43:32 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [26/Aug/2024:07:17:12 +0000] "POST /users/login HTTP/1.1" 200 437 "-" "PostmanRuntime/7.41.1"
+
+info: ::1 - - [26/Aug/2024:07:17:16 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+
+info: ::1 - - [26/Aug/2024:07:17:18 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0"
+

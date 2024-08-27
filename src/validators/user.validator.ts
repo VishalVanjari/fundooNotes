@@ -2,7 +2,7 @@ import Joi from '@hapi/joi';
 import { Request, Response, NextFunction } from 'express';
 
 class UserValidator {
-  public newUser = (req: Request, res: Response, next: NextFunction): void => {
+   newUser = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
       firstName: Joi.string().min(3).required(),
       lastName: Joi.string().min(3).required(),
@@ -39,7 +39,7 @@ class UserValidator {
   //     password: Joi.string().min(8),
   //     mobile: Joi.number().min(10),
   //     gender: Joi.string(),
-  //     dob: Joi.date(),
+  //     dob:public Joi.date(),
   //   });
   //   const { error } = schema.validate(req.body);
   //   if (error) {
